@@ -2,7 +2,7 @@ package vetores;
 
 import java.util.Scanner;
 
-public class Exc9Nãopronto {
+public class Exc9NÃ£opronto {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         
@@ -17,10 +17,10 @@ public class Exc9Nãopronto {
         for(cont=0; cont<10; cont++) {
             s = cont + 1;
             
-            System.out.println("digite "+s+"° valor do elemento do vetor A");
+            System.out.println("digite "+s+"Â° valor do elemento do vetor A");
             a[cont] = entrada.nextInt();
             
-            System.out.println("digite "+s+"° valor do elemento do vetor B");
+            System.out.println("digite "+s+"Â° valor do elemento do vetor B");
             b[cont] = entrada.nextInt();
             
             System.out.println(" ");
@@ -40,7 +40,7 @@ public class Exc9Nãopronto {
             }
         }
         
-        System.out.println("\n--- Interseção (Vetor C) ---");
+        System.out.println("\n--- InterseÃ§Ã£o (Vetor C) ---");
         
         if (contC == 0) {
             System.out.println("Nenhum elemento em comum encontrado");
@@ -48,7 +48,7 @@ public class Exc9Nãopronto {
 
         	for (ai=0; ai < contC; ai++) { 
                 s = ai + 1;
-                System.out.println("O valor do "+s+"º elemento do vetor C é: "+c[ai]);
+                System.out.println("O valor do "+s+"Âº elemento do vetor C Ã©: "+c[ai]);
             }
         }
         
