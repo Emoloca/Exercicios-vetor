@@ -2,7 +2,7 @@ package vetores;
 
 import java.util.Scanner;
 
-public class Exc1Nãopronto {
+public class Exc1 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         
